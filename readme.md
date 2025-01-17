@@ -1,4 +1,4 @@
-# Plasma proteins & MS - MR analysis
+# Plasma proteins & Asthma - MR analysis
 
 This repo contains code used to produce the results in xxx.
 Code by Shannon Healey and Ben Jacobs.
@@ -70,6 +70,7 @@ qsub ./scripts/make_besd_file.sh
 ```
 
 ## Process 1kg data
+## skip this step
 Convert 1kg reference to hg38
 ```unix
 qsub ./scripts/liftover_1kg_ref.sh
